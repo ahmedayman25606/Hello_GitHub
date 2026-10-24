@@ -9,15 +9,18 @@ namespace ConsoleApp27
     internal class Person
     {
         public string Name { get; set; }
+
+        public string Department { get; set; }
         public int Age { get; set; }
-        public Person(string name, int age)
+        public Person(string name, string department, int age)
         {
             Name = name;
+            Department = department;
             Age = age;
         }
         public override string ToString()
         {
-            return $"Name: {Name}, Age: {Age}";
+            return $"Name: {Name}, Department: {Department}, Age: {Age}";
         }
     }
 }
