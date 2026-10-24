@@ -9,7 +9,8 @@
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Updated from Local");
+            Console.WriteLine("Updated from GitHub");
+
             Console.WriteLine("Hello, World");
 
         }
